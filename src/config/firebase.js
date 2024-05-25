@@ -8,8 +8,9 @@ const firebaseConfig = {
     storageBucket: process.env.REACT_APP_storageBucket,
     messagingSenderId: process.env.REACT_APP_messagingSenderId,
     appId: process.env.REACT_APP_appId,
-    measurementId: process.env.REACT_APP_measurementId
+    measurementId: process.env.REACT_APP_measurementId,
 }
 
+console.log(process.env)
 const app = initializeApp(firebaseConfig)
 export const storage = getStorage(app)
