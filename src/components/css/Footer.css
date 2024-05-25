@@ -1,0 +1,19 @@
+.footer {
+    font-family: "Playfair Display";
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.footer-text > p > a {
+    color: black;
+}
+
+.footer > hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-text {
+    margin: 2% 0;
+}

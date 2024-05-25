@@ -1,7 +1,8 @@
 import './App.css'
-import Hero from './components/Hero'
 import Navbar from "./components/Navbar"
+import Hero from './components/Hero'
 import VideoDisplay from './components/VideoDisplay'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <VideoDisplay />
+      <Footer />
     </div>
   );
 }
