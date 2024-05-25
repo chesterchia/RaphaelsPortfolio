@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 50px;
+    height: 7vh;
+    background-color: #171717;
+    color: #ffffff;
+    font-family: "Playfair Display";
+    box-sizing: border-box;
+}
+
+.name {
+    font-size: 1.4em;
+    font-weight: 500;
+}
