@@ -3,23 +3,13 @@ import './css/Video.css'
 import { useState, useEffect, useRef } from 'react'
 
 export default function Video({ url }) {
-    const getRandomSize = () => {
-        const min = 0.7
-        const max = 1
-        return Math.random() * (max - min) + min
-    }
-
-    const [baseSize, setBaseSize] = useState(1)
-    const [scale, setScale] = useState(1)
+    const [baseSize, setBaseSize] = useState(0.9)
+    const [scale, setScale] = useState(0.9)
     const [isPlaying, setIsPlaying] = useState(false)
 
     const videoRef = useRef()
 
     useEffect(() => {
-        const size = getRandomSize()
-        setBaseSize(size)
-        setScale(size)
-
         const currentVideoRef = videoRef.current
 
         return () => {
